@@ -12,10 +12,10 @@ function printNumbers(numbers) {
   }
   
 // Q: Given an array of numbers, what is the time complexity of this function?
-// ANSWER: O(1)
+// ANSWER: O(n)
 
 // Q: What is the space complexity?
-// ANSWER: O(n)
+// ANSWER: O(1)
 
 
 
@@ -41,7 +41,7 @@ function findFourth(numbers) {
 // ANSWER: O(1)
 
 // Q: Given an array of numbers, what is the space complexity of this function?
-// ANSWER: O(n)
+// ANSWER: O(1)
 
 
 // Q: Could you come up with a solution that has a better time complexity? If so, write out that solution and note the time complexity. If not, why not?
@@ -122,10 +122,10 @@ let newNumbersA = numbers.filter((num) => {
   return num < 5
 })
 // Q: What is the time complexity of the filter higher-order function?
-// ANSWER: O(1)
+// ANSWER: O(n)
 
 // Q: What is the space complexity of the filter higher-order function?
-// ANSWER: O(1)
+// ANSWER: O(n)
 
 
 // 8) -------------------------------------------------------
@@ -134,7 +134,7 @@ let newNumbersB = numbers.map((num) => {
   return num * 3
 })
 // Q: What is the time complexity of the map higher-order function?
-// ANSWER: O(1)
+// ANSWER: O(n)
 
 // Q: What is the space complexity of the map higher-order function?
 // ANSWER: O(n)
@@ -204,7 +204,7 @@ function arrInception(parentArr) {
     }
   }
   // Q: What is the space complexity of this function?
-  // ANSWER: O(n^2)
+  // ANSWER: O(1)
   
   
 // 14) You are challenged to find the squared value of each number in an array. This is not the best solution, but it is what you come up with anyway...
@@ -222,7 +222,7 @@ function getNumbersSquared(numbers) {
 }
 
 // Q: What is the space complexity of this function?
-// ANSWER: O(n^2)
+// ANSWER: O(n)
 
 
 // Q: Is it possible to improve this function's space complexity? If it is, write a new function below.
